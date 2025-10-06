@@ -19,6 +19,20 @@ header {
 
 /* Navbar */
 nav {
+ /* Hover underline effect */
+nav .nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* distance below text */
+  width: 0%;
+  height: 2px;
+  background-color: #1e90ff; /* blue underline */
+  transition: width 0.3s ease; }
+
+/* When hovered */
+nav .nav-links li a:hover::after {
+  width: 100%; }
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -38,21 +52,6 @@ nav .nav-links li a {
   text-decoration: none;
   color: #000;
   font-weight: 500; }
-
-/* Hover underline effect */
-nav .nav-links li a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px; /* distance below text */
-  width: 0%;
-  height: 2px;
-  background-color: #1e90ff; /* blue underline */
-  transition: width 0.3s ease; }
-
-/* When hovered */
-nav .nav-links li a:hover::after {
-  width: 100%; }
 
 /* Hero section */
 .hero {
