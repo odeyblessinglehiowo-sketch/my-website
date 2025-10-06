@@ -44,14 +44,14 @@ nav .nav-links li a::after {
   position: absolute;
   left: 0;
   bottom: -5px; /* distance below text */
-  width: 0%;
+  width: 60px;
   height: 2px;
   background-color: #1e90ff; /* blue underline */
   transition: width 0.3s ease; }
 
 /* When hovered */
 nav .nav-links li a:hover::after {
-  width: 100%; }
+  width: 60px; }
 
 /* Hero section */
 .hero {
