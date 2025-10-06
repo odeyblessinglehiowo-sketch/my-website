@@ -17,9 +17,7 @@ header {
   background: none; 
   height: auto; }
 
-/* Navbar */
-nav {
- /* Hover underline effect */
+/* Hover underline effect */
 nav .nav-links li a::after {
   content: "";
   position: absolute;
@@ -33,13 +31,14 @@ nav .nav-links li a::after {
 /* When hovered */
 nav .nav-links li a:hover::after {
   width: 100%; }
+/* Navbar */
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center; 
   padding: 20px 8%;
   position: relative;
   z-index: 1; }
-
 nav .logo {
   font-size: 15px; }
 
