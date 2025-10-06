@@ -38,20 +38,27 @@ nav .nav-links li a {
   color: #000;
   font-weight: 500; }
 
+/* Base link style */
+nav .nav-links li a {
+  position: relative; /* very important! keeps underline under each link */
+  text-decoration: none;
+  color: #000;
+  font-weight: 500; }
+
 /* Hover underline effect */
 nav .nav-links li a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -5px; /* distance below text */
-  width: 60px;
+  bottom: -5px; /* space below text */
+  width: 0;
   height: 2px;
   background-color: #1e90ff; /* blue underline */
   transition: width 0.3s ease; }
 
 /* When hovered */
 nav .nav-links li a:hover::after {
-  width: 60px; }
+  width: 100%; }/* underline grows under each link only */
 
 /* Hero section */
 .hero {
