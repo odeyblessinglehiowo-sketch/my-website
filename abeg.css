@@ -4,21 +4,21 @@ padding: 0;
  box-sizing: border-box; }
 
 /* Header */
-header {
+/*header {
   position: relative;
   height: 100vh;
   background: url("Group5.svg") no-repeat right top;
   background-size: 45%; /* adjust to control blob size */
-  background-attachment: scroll; /* prevent weird fixed behavior */
-}
+ /* background-attachment: scroll; }
+/* prevent weird fixed behavior */
 
-/*header {
+header {
   position: relative;
   height: 100vh;
   background: url("Group5.svg");
   background-repeat: no-repeat;
   background-position: 100% 0; 
-  background-size: 38%; }*/
+  background-size: 38%; }
 
 
 .about-page header {
@@ -274,7 +274,7 @@ footer img {
   width: 100%;
   height: auto; }
 /* ====== Responsive Design (Mobile View) ====== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
   @media (max-width: 768px) {
   .hero {
@@ -297,4 +297,4 @@ footer img {
     background-position: center top;
     height: auto;
   }
-}
+}*/
