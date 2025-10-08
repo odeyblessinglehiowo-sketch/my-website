@@ -258,4 +258,72 @@ footer img {
   display: block;
   width: 100%;
   height: auto; }
+/* ====== Responsive Design (Mobile View) ====== */
+@media (max-width: 768px) {
+
+  /* Header background image fix */
+  header {
+    background-size: 70%;
+    background-position: center top;
+  }
+
+  /* Hero section stacks vertically */
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text p {
+    text-align: left; /* avoid weird spacing on mobile */
+  }
+
+  .hero-image img {
+    width: 250px;
+    margin: 20px 0 0 0;
+  }
+
+  /* About section */
+  .about-hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 50px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+
+  /* Projects */
+  .project-list {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-text {
+    padding: 20px;
+  }
+
+  /* Form section */
+  .project-form {
+    width: 90%;
+  }
+
+  /* Footer */
+  footer img {
+    height: auto;
+  }
+}
 
