@@ -112,19 +112,19 @@ nav .nav-links li a:hover::after {
   border: 1px solid #000; }
 
 /* Hero Image */
-.hero-image img {
+/*.hero-image img {
   width: 340px;
   height: auto;
   position: relative;
   z-index: 2;
   margin-right: -80px;
-}
-/*.hero-image img {
+}*/
+.hero-image img {
   width: 340px;
   height: 53;
   position: relative;
   margin-right: -80px;
-  z-index: 1; }*/
+  z-index: 1; }
 
 /* About section */
 .about-hero {
